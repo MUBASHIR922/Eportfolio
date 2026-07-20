@@ -1,0 +1,166 @@
+<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h2>Learning Outcomes</h2>
+									</header>
+									<p>I will learn to: <br/>
+									<ul>
+										<li>Articulate the legal, social, ethical and professional issues faced by machine learning professionals.</li>
+										<li>Understand the applicability and challenges associated with different datasets for the use of machine learning algorithms.</li>
+										<li>Apply and critically appraise machine learning techniques to real-world problems, particularly where technical risk and uncertainty is involved.</li>
+										<li>Systematically develop and implement the skills required to be an effective member of a development team in a virtual professional environment, adopting real-life perspectives on team roles and organisation.</li>
+									</ul>
+									</p>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two" class="spotlights">
+								<section>
+									<a href="ML-artefacts.html" class="image">
+										<img src="images/pic08.jpg" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Artefacts</h3>
+											</header>
+											<p>Discussion posts, peer critiques, data mining exercises and the team
+											machine learning project completed to achieve the module's learning
+											outcomes.</p>
+											<ul class="actions">
+												<li><a href="ML-artefacts.html" class="button">Learn more</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a href="ML-reflection.html" class="image">
+										<img src="images/pic09.jpg" alt="" data-position="top center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Reflections</h3>
+											</header>
+											<p>What specific skills did I develop, and through which learning activities?</p>
+											<ul class="actions">
+												<li><a href="ML-reflection.html" class="button">Learn more</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a href="ML-notes.html" class="image">
+										<img src="images/pic10.jpg" alt="" data-position="25% 25%" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Meeting Notes</h3>
+											</header>
+											<p>Summaries of key discussions, along with input and guidance received from colleagues and academic tutors.</p>
+											<ul class="actions">
+												<li><a href="ML-notes.html" class="button">Click here</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+							</section>
+
+						<!-- Three -->
+							<section id="three">
+								<div class="inner">
+									<header class="major">
+										<h2>Professional Skills Matrix and Action Plan</h2>
+									</header>
+									<p>Which abilities have I developed or improved through this module, and how will I apply them in practice? What additional areas should I continue to strengthen?</p>
+									<ul class="actions">
+										<li><a href="ML-skills-matrix.html" class="button next">Learn More</a></li>
+									</ul>
+								</div>
+							</section>
+
+					</div>
+
+        		<!-- Contact -->
+					<section id="contact">
+						<div class="inner">
+							<section>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="6"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Clear" /></li>
+									</ul>
+								</form>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="#">syedmubashirali922@gmail.com</a>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-phone"></span>
+										<h3>Phone</h3>
+										<span>(000) 000-0000 x12387</span>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-home"></span>
+										<h3>Address</h3>
+										<span> Hyderabad, Sindh,<br />
+										Pakistan</span>
+									</div>
+								</section>
+							</section>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="https://github.com/MUBASHIR922" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="https://www.linkedin.com/in/syed-mubashir-ali-967b14209/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; SyedMubashirAli</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
