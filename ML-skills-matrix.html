@@ -6,11 +6,19 @@
 -->
 <html>
 	<head>
-		<title>Syed Mubashir Ali</title>
+		<title>Machine Learning — Skills Matrix &amp; PDP | Syed Mubashir Ali</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			table.matrix{ width:100%; border-collapse:collapse; margin:18px 0; font-size:0.92em; }
+			table.matrix th, table.matrix td{ border:1px solid #ddd; padding:9px 11px; text-align:left; vertical-align:top; }
+			table.matrix th{ background:#f0f0f0; font-size:0.85em; text-transform:uppercase; letter-spacing:0.04em; }
+			table.matrix td.score{ text-align:center; font-weight:600; width:60px; }
+			.up{ color:#2c7a4b; }
+			.todo-note{ border-left:4px solid #d1a94b; background:#fbf6e8; padding:10px 16px; margin:14px 0; font-size:0.9em; }
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -40,172 +48,179 @@
 							<li><a href="landing.html">MSc Computing Project</a></li>
 						</ul>
 					</nav>
-<!-- Main -->
-				
 
-<div id="main">
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
+						<div class="inner">
+							<header class="major">
+								<h1>Professional Skills Matrix &amp; Action Plan</h1>
+							</header>
+							<div class="content">
+								<p>Self-assessment of the skills developed across the Machine Learning module, scored 1
+								(developing) to 5 (strong), with evidence drawn directly from the artefacts on this
+								portfolio rather than asserted without support.</p>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
 
 						<!-- One -->
-							<section id="one">
+							<section id="one" class="wrapper style1">
 								<div class="inner">
-									<header class="major">
-										<h2>Learning Outcomes</h2>
-									</header>
-									<p>I will learn to: <br/>
-									<ul>
-										<li>Articulate the legal, social, ethical and professional issues faced by machine learning professionals.</li>
-										<li>Understand the applicability and challenges associated with different datasets for the use of machine learning algorithms.</li>
-										<li>Apply and critically appraise machine learning techniques to real-world problems, particularly where technical risk and uncertainty is involved.</li>
-										<li>Systematically develop and implement the skills required to be an effective member of a development team in a virtual professional environment, adopting real-life perspectives on team roles and organisation.</li>
-									</ul>
-									</p>
+									<header class="major"><h2>Skills Matrix</h2></header>
+									<table class="matrix">
+										<tr>
+											<th>Skill</th><th>Before</th><th>After</th><th>Evidence</th>
+										</tr>
+										<tr>
+											<td>Time management</td>
+											<td class="score">2</td><td class="score up">4</td>
+											<td>Kept pace across all 11 units — no late discussion posts across Units 1, 2, 3,
+											5, 8, 9, 10 — while also delivering the ML implementation for the team project to the
+											Unit 6 and Unit 11 deadlines. <span style="color:#999;">(Strengthen this: add one
+											line to the Meeting Notes page confirming you hit agreed internal milestones, not
+											just the final submission dates.)</span></td>
+										</tr>
+										<tr>
+											<td>Commercial awareness</td>
+											<td class="score">2</td><td class="score up">3</td>
+											<td>Unit 6/11 project connects model output to a real pricing decision (Airbnb host
+											pricing) and customer segmentation for targeting — but the write-up stays technical
+											rather than framed in business-impact terms. Room to grow here.</td>
+										</tr>
+										<tr>
+											<td>Critical thinking &amp; analysis</td>
+											<td class="score">2</td><td class="score up">4</td>
+											<td>Unit 2 &amp; 9 peer critiques don't just agree — they identify a specific
+											analytical gap (governance vs. technology risk) and argue it with evidence. Unit 3 &amp; 10
+											summary posts synthesise three units into one argument rather than listing them.</td>
+										</tr>
+										<tr>
+											<td>Communication &amp; literacy skills</td>
+											<td class="score">3</td><td class="score up">4</td>
+											<td>Consistent, well-structured academic writing across 9 discussion posts plus a
+											993-word reflective piece, all in UK English with correct Harvard referencing.</td>
+										</tr>
+										<tr>
+											<td>IT &amp; digital</td>
+											<td class="score">3</td><td class="score up">4</td>
+											<td>Unit 6/11 notebook: pandas/geopandas EDA, ydata-profiling, scikit-learn (Random
+											Forest, KMeans, PCA, StandardScaler), XGBoost. Unit 7: NumPy perceptron implementation.</td>
+										</tr>
+										<tr>
+											<td>Numeracy</td>
+											<td class="score">2</td><td class="score up">4</td>
+											<td>Unit 5 Jaccard similarity/distance calculated by hand across three pairs; Unit 3
+											Pearson correlation &amp; linear regression; interpreting RMSE (≈37 USD, ~31% relative
+											error) and silhouette score in Unit 6/11.</td>
+										</tr>
+										<tr>
+											<td>Research</td>
+											<td class="score">2</td><td class="score up">4</td>
+											<td>Independent literature sourced beyond the module reading list — Surana (2024) on
+											AI code-integrity risk, brought in to support a peer response (Unit 9). Harvard Anglia
+											referencing applied consistently.</td>
+										</tr>
+										<tr>
+											<td>Interpersonal</td>
+											<td class="score">3</td><td class="score up">4</td>
+											<td>Four full peer-critique responses (Units 2 &amp; 9) that disagree constructively —
+											acknowledging the peer's point before adding a counter-argument, rather than only
+											agreeing or only contradicting.</td>
+										</tr>
+										<tr>
+											<td>Problem-solving</td>
+											<td class="score">3</td><td class="score up">4</td>
+											<td>Concrete data-quality decisions in the team project: filling missing
+											reviews_per_month with median (not dropping rows), trimming price to the 5th–90th
+											percentile to stop luxury outliers dominating the error metric, choosing Random Forest
+											over linear regression once the price/location relationship was shown to be non-linear.</td>
+										</tr>
+										<tr>
+											<td>Ethical awareness</td>
+											<td class="score">2</td><td class="score up">4</td>
+											<td>Units 1–3 (accountability when automated systems fail, cybersecurity governance)
+											and Units 8–10 (Generative AI hallucination/bias risk, human-oversight argument)
+											directly address LO1's legal/social/ethical/professional focus.</td>
+										</tr>
+										<tr>
+											<td>Teamwork / global citizen &amp; leadership</td>
+											<td class="score">3</td><td class="score up">4</td>
+											<td>Owned the machine learning implementation within the team project — wrote the
+											regression code (Random Forest and XGBoost models predicting listing price) and the
+											clustering pipeline (K-Means with elbow method, silhouette validation, and PCA for
+											customer segmentation), while teammates covered other parts of the deliverable
+											(e.g. data sourcing, write-up). This is a genuine division of labour rather than
+											overlapping effort.</td>
+										</tr>
+										<tr>
+											<td>Critical reflection</td>
+											<td class="score">2</td><td class="score up">4</td>
+											<td>Reflective piece explicitly uses Rolfe et al. (2001) What?/So What?/Now What?,
+											questions your own initial assumptions in the "So What?" section, and ties learning to
+											named future actions in "Now What?" — matching the "Good→Excellent" band of the rubric,
+											not just description.</td>
+										</tr>
+									</table>
+									<div class="todo-note">
+										<strong>Before you submit:</strong> re-check every "Before" score honestly — these are
+										drafted from what your artefacts demonstrate, not from a start-of-module diagnostic you
+										actually took. If you rated yourself differently at the time (e.g. in an early
+										self-assessment activity), use that instead.
+									</div>
 								</div>
 							</section>
 
 						<!-- Two -->
-							<section id="two" class="spotlights">
-								<section>
-									<a href="ML-artefacts.html" class="image">
-										<img src="images/pic08.jpg" alt="" data-position="center center" />
-									</a>
-									<div class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>Artefacts</h3>
-											</header>
-											<p>Discussion posts, peer critiques, data mining exercises and the team
-											machine learning project completed to achieve the module's learning
-											outcomes.</p>
-											<ul class="actions">
-												<li><a href="ML-artefacts.html" class="button">Learn more</a></li>
-											</ul>
-										</div>
-									</div>
-								</section>
-								<section>
-									<a href="ML-reflection.html" class="image">
-										<img src="images/pic09.jpg" alt="" data-position="top center" />
-									</a>
-									<div class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>Reflections</h3>
-											</header>
-											<p>What specific skills did I develop, and through which learning activities?</p>
-											<ul class="actions">
-												<li><a href="ML-reflection.html" class="button">Learn more</a></li>
-											</ul>
-										</div>
-									</div>
-								</section>
-								<section>
-									<a href="ML-notes.html" class="image">
-										<img src="images/pic10.jpg" alt="" data-position="25% 25%" />
-									</a>
-									<div class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>Meeting Notes</h3>
-											</header>
-											<p>Summaries of key discussions, along with input and guidance received from colleagues and academic tutors.</p>
-											<ul class="actions">
-												<li><a href="ML-notes.html" class="button">Click here</a></li>
-											</ul>
-										</div>
-									</div>
-								</section>
-							</section>
-
-						<!-- Three -->
-							<section id="three">
+							<section id="two" class="wrapper style2">
 								<div class="inner">
-									<header class="major">
-										<h2>Professional Skills Matrix and Action Plan</h2>
-									</header>
-									<p>Which abilities have I developed or improved through this module, and how will I apply them in practice? What additional areas should I continue to strengthen?</p>
-									<ul class="actions">
-										<li><a href="ML-skills-matrix.html" class="button next">Learn More</a></li>
-									</ul>
+									<header class="major"><h2>Action Plan (PDP)</h2></header>
+									<table class="matrix">
+										<tr><th>Gap identified</th><th>Action</th><th>Target</th><th>How I'll know it worked</th></tr>
+										<tr>
+											<td>My role in the team project (owning the ML code) is now clear, but there's no
+											dated record of how the team coordinated to reach that division of labour.</td>
+											<td>Add the team's meeting log to the Meeting Notes page — even 2–3 short entries
+											covering who took which part and when (e.g. the meeting where ML implementation was
+											assigned to me).</td>
+											<td>Before final submission</td>
+											<td>Meeting notes page has at least 2–3 dated entries that corroborate the
+											division of labour described in the artefacts page.</td>
+										</tr>
+										<tr>
+											<td>Commercial awareness — the ML write-up is technically strong but doesn't frame
+											results in business terms (e.g. "what should an Airbnb host actually do with a
+											model that's off by $37?").</td>
+											<td>Add 2–3 sentences to the Unit 6/11 artefact translating RMSE and the four
+											customer segments into a pricing/marketing recommendation a non-technical
+											stakeholder could act on.</td>
+											<td>Before final submission</td>
+											<td>Artefact includes one clear "so what does this mean for the business" statement per model.</td>
+										</tr>
+										<tr>
+											<td>Time management is scored well, but rests on self-report rather than a
+											dated log — no artefact currently proves the "no late submissions" claim.</td>
+											<td>Keep a lightweight shared task board (even a simple spreadsheet) from the
+											first meeting of the next module onward, and log it as a portfolio artefact.</td>
+											<td>Next module start</td>
+											<td>A dated task log exists as an artefact backing up the self-assessment.</td>
+										</tr>
+										<tr>
+											<td>Numeracy/technical depth is strong on execution but the reflection doesn't yet
+											critique the models' limitations very far (e.g. feature scarcity capping RMSE).</td>
+											<td>In future project write-ups, add one paragraph explicitly stating what a better
+											dataset or feature set would need to include to move past the current error ceiling.</td>
+											<td>Ongoing — apply from Unit 11 write-up onward</td>
+											<td>Reflection/evaluation sections name a specific missing feature or data limitation, not just a result.</td>
+										</tr>
+									</table>
 								</div>
 							</section>
 
 					</div>
 
-        		<!-- Contact -->
-					<section id="contact">
-						<div class="inner">
-							<section>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="6"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Clear" /></li>
-									</ul>
-								</form>
-							</section>
-							<section class="split">
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-envelope"></span>
-										<h3>Email</h3>
-										<a href="#">syedmubashirali922@gmail.com</a>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-phone"></span>
-										<h3>Phone</h3>
-										<span>(000) 000-0000 x12387</span>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-home"></span>
-										<h3>Address</h3>
-										<span> Hyderabad, Sindh,<br />
-										Pakistan</span>
-									</div>
-								</section>
-							</section>
-						</div>
-					</section>
-
 				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-							<ul class="icons">
-								<li><a href="https://github.com/MUBASHIR922" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="https://www.linkedin.com/in/syed-mubashir-ali-967b14209/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							</ul>
-							<ul class="copyright">
-								<li>&copy; SyedMubashirAli</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</footer>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
-</html>
+					<footer
